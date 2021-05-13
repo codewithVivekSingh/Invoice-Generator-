@@ -49,7 +49,7 @@ def generateInvoice():
     # Document Information
     # Changing the font for Document title
     c.setFont("Courier-Bold", 8)
-    c.drawCentredString(100, 55, "QUOTATION")
+    c.drawCentredString(100, 55, "INVOICE")
 
     # This Block Consist of Costumer Details
     c.roundRect(15, 63, 170, 40, 10, stroke=1, fill=0)
